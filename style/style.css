@@ -1,0 +1,127 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Tajawal:wght@200;400;500&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.logo::after{
+position: absolute;
+background-color: rgba(128, 128, 128, 0.503);
+height: 83%;
+width: 1px;
+top: 5px;
+right: -11px;
+content: "";
+}
+.navbar{
+    z-index: 5000 !important;
+    top: 0 !important;  
+}
+.carousel-caption{
+    width: 400px;
+    border-radius: 152px;
+    background: #3f3a7f;
+    transform: rotate(-3deg);
+    left: 130px !important;
+    bottom: 50px !important;
+    text-align: center;
+}
+.carousel-caption:after{
+   position: absolute;
+   content: "";
+   top: 3px;
+    left: 3px;
+    width: 98%;
+    height: 97%;
+    content: "";
+    background: 0 0;
+    border: 1px solid #fff;
+    border-radius: 150px;
+    transform: rotate(7deg);  
+}
+.adventure .adventure-content{
+    background-image: url(../imgs/single-tour-4.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.card1{
+    width: 300px !important;
+    height: 250px !important;
+}
+.fa-map-marker-alt,.fa-award,.fa-id-card,.fa-headset{
+    border: 1px solid #f4834a !important;
+    line-height: 65px;
+    color: #f4834a !important;
+    width: 60px !important;
+    height: 60px!important;
+    padding: 12px;
+}
+.card .btn{
+    background-color: #f4834a !important;
+    color: white;
+}
+.tour{
+    transition: .5s;
+    cursor: pointer;
+}
+.tour:hover{
+    background-color: #f4834a;
+}
+.tour:hover h3,.tour:hover h4,.tour:hover h5,.tour:hover span ,.tour:hover .fa-clock ,.tour:hover .fa-star{
+    color: #fff !important;
+}
+.img-content{
+    opacity: 0;
+    cursor: pointer;
+    transition: .5s;
+}
+.imgs:hover .img-content{
+    opacity: 1;
+}
+.section-title span{
+    color: #f4834a;
+}
+.section-title span:after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: -37px;
+    width: 30px;
+    height: 1px;
+    background-color:#f4834a;
+}
+.fa-calendar-check,.fa-handshake,.fa-laptop-house{
+    color: #f4834a !important;
+}
+.accordion-button:hover{
+    background-color: #fcd07d81 !important;
+    color: #f4834a!important;
+    z-index: -1;
+}
+.tab{
+    border-radius: 15px 0;
+}
+.tab:hover{
+    background-color: #f4834a;
+    color: #fff !important;
+}
+.shop .active{
+    border: #f4834a solid 1px; 
+    background-color: #f4834a;
+}
+.shop .product-options button{
+border-radius: 15px 0;
+transition: .5s;
+}
+.shop .product-options button:hover{
+    background-color: #f4834a !important;
+    color: #fff;
+    }
+.shop .product-img:hover .product-options{
+    visibility: visible !important;
+}
+.blogs .card{transition: .7s; cursor: pointer;}
+.blogs .card:hover h4{
+    color: #f4834a;
+}
